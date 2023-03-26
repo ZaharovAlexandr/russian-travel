@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Inter";
-    src: url(./fonts/Inter-Regular.ttf) format("truetype");
+    src: url(..//fonts/Inter-Regular.ttf) format("truetype");
     font-weight: 400;
 }
 
@@ -145,6 +145,7 @@
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
     gap: 16px;
+    list-style-type: none;
 }
 
 .photo-grid__image {

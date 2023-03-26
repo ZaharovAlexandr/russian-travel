@@ -1,0 +1,13 @@
+.place-website {
+    justify-self: start;
+    align-self: end;
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+}
+@media screen and (max-width: 320px) {
+    .place-website {
+            width: 288px;
+            margin: 0 auto 0;
+        }
+}

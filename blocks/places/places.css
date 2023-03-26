@@ -1,0 +1,12 @@
+.places {
+    display: flex;
+    flex-direction: column;
+    row-gap: 80px;
+    padding-bottom: 92px;
+}
+@media screen and (max-width: 320px) {
+    .places {
+            row-gap: 50px;
+            padding-bottom: 66px;
+        }
+}

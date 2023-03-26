@@ -1,0 +1,13 @@
+.menu__links {
+    padding-bottom: 4px;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    column-gap: 18PX;
+    align-items: end;
+}
+@media screen and (max-width: 320px) {
+    .menu__links {
+            padding: 0;
+        }
+}

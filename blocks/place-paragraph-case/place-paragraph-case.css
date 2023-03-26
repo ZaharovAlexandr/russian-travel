@@ -1,0 +1,11 @@
+.place-paragraph-case {
+    display: flex;
+    flex-direction: column;
+    row-gap: 26px;
+}
+@media screen and (max-width: 320px) {
+    .place-paragraph-case {
+            width: 288px;
+            margin: 0 auto 0;
+        }
+}
