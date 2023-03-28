@@ -4,19 +4,36 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-top: 92px;
+    align-content: end;
+    padding-top: 80px;
+    padding-bottom: 52px;
 }
 @media screen and (max-width: 1024px) {
     .footer {
             max-width: 928px;
+            padding-top: 75px;
+            padding-bottom: 24px;
         }
 }
 @media screen and (max-width: 768px) {
     .footer {
+            padding-top: 70px;
             max-width: 720px;
-            padding-top: 88px;
         }
 }
+
+@media screen and (max-width: 537px) {
+    .footer {
+            margin: 0 auto 0;
+            max-width: 288px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding-top: 64px;
+            row-gap: 48px;
+        }
+}
+
 @media screen and (max-width: 320px) {
     .footer {
             margin: 0 auto 0;

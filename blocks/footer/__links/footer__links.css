@@ -6,11 +6,17 @@
     align-items: end;
     column-gap: 18px;
 }
+
+@media screen and (max-width: 676px) {
+    .footer__links {
+            flex-direction: column;
+            align-items: start;
+            row-gap: 32px;
+        }
+}
+
 @media screen and (max-width: 320px) {
     .footer__links {
-            padding: 0;
-            list-style-type: none;
-            display: flex;
             flex-direction: column;
             align-items: start;
             row-gap: 32px;

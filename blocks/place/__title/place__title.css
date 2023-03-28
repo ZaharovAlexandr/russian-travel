@@ -5,10 +5,21 @@
     line-height: 76px;
     color: #FFFFFF;
     align-self: end;
+    text-rendering: optimizeSpeed;
 }
+
+@media screen and (max-width: 768px) {
+    .place__title {
+            max-width: 330px;
+            font-size: 42px;
+            line-height: 46px;
+        }
+}
+
 @media screen and (max-width: 320px) {
     .place__title {
-            width: 288px;
+            align-self: end;
+            min-width: 288px;
             font-size: 32px;
             line-height: 35px;
             margin: 0 auto 0;

@@ -1,7 +1,6 @@
 .cover {
     margin: 0 auto 0;
     max-width: 1184px;
-    min-height: 740px;
     background-image: url("../../images/__background.png");
     background-repeat: no-repeat;
 }
@@ -9,8 +8,6 @@
     .cover {
             margin: 0 auto 0;
             max-width: 1024px;
-            min-height: 640px;
-            background-image: url("../../images/__background.png");
             background-size: contain;
             background-repeat: no-repeat;
         }
@@ -19,8 +16,6 @@
     .cover {
             margin: 0 auto 0;
             max-width: 1024px;
-            min-height: 480px;
-            background-image: url("../../images/__background.png");
             background-size: contain;
             background-repeat: no-repeat;
         }
@@ -29,8 +24,6 @@
     .cover {
             margin: 0 auto 0;
             max-width: 320px;
-            min-height: 200px;
-            background-image: url("../../images/__background.png");
             background-size: contain;
             background-repeat: no-repeat;
         }

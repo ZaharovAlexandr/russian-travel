@@ -1,12 +1,18 @@
-.place-website {
+.place__websites {
     justify-self: start;
     align-self: end;
     display: flex;
     flex-direction: column;
     row-gap: 12px;
 }
+
+@media screen and (max-width: 768px) {
+    .place__websites {
+        }
+}
+
 @media screen and (max-width: 320px) {
-    .place-website {
+    .place__websites {
             width: 288px;
             margin: 0 auto 0;
         }
