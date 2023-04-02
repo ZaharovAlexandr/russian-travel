@@ -24,5 +24,5 @@
 
 ## Ссылка на GitHub Pages:
 
-* [Ссыкла на страницу!](https://zaharovalexandr.github.io/russian-travel/)
+* [Ссылка](https://zaharovalexandr.github.io/russian-travel/)
 

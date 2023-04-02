@@ -3,17 +3,12 @@
     align-self: end;
     display: flex;
     flex-direction: column;
-    row-gap: 12px;
-}
-
-@media screen and (max-width: 768px) {
-    .place__websites {
-        }
+    row-gap: 13px;
 }
 
 @media screen and (max-width: 320px) {
     .place__websites {
-            width: 288px;
+            min-width: 288px;
             margin: 0 auto 0;
         }
 }

@@ -17,7 +17,5 @@
 @media screen and (max-width: 320px) {
     .lead__quote {
             padding-left: 16px;
-            font-size: 10px;
-            line-height: 14px;
         }
 }

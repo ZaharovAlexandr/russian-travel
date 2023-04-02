@@ -4,7 +4,7 @@
     display: grid;
     grid-template-columns: 5fr 5fr;
     grid-template-rows: auto 3fr;
-    column-gap: 35px;
+    column-gap: 12px;
     row-gap: 48px;
 }
 @media screen and (max-width: 1024px) {
@@ -17,37 +17,15 @@
 @media screen and (max-width: 768px) {
     .place {
             max-width: 720px;
-            column-gap: 10px;
             row-gap: 46px;
         }
 }
 
 @media screen and (max-width: 676px) {
     .place {
-            margin: 0 auto 0;
             max-width: 320px;
             grid-template-columns: 1fr;
             grid-template-rows: repeat(4, auto);
             row-gap: 32px;
-        }
-}
-
-@media screen and (max-width: 360px) {
-    .place {
-            margin: 0 auto 0;
-            max-width: 320px;
-            grid-template-columns: 1fr;
-            grid-template-rows: repeat(4, auto);
-            row-gap: 32px;
-        }
-}
-
-@media screen and (max-width: 320px) {
-    .place {
-            margin: 0 auto 0;
-            max-width: 320px;
-            grid-template-columns: 1fr;
-            grid-template-rows: repeat(4, auto);
-            row-gap: 33px;
         }
 }

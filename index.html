@@ -11,15 +11,13 @@
 
 <body class="pages">
     <header class="header">
-        <ul class="menu">
-            <li><img src="./images/__logo.svg" alt="Лого" class="menu__logo"></li>
-            <li>
-                <menu class="menu__links">
-            <li><a href="#" class="menu__link menu__link_active">Ru</a></li>
-            <li><a href="#" class="menu__link">En</a></li>
+        <div class="header__block">
+            <img src="./images/__logo.svg" alt="Лого" class="header__logo">
+            <menu class="menu">
+                <li><a href="#" class="menu__link menu__link_active">Ru</a></li>
+                <li><a href="#" class="menu__link">En</a></li>
             </menu>
-            </li>
-        </ul>
+        </div>
     </header>
     <main>
         <section class="lead">
@@ -46,7 +44,7 @@
                 <li class="intro__list">Объектов культурного наследия ЮНЕСКО <span class="intro__list-number">16</span>
                 </li>
                 <li class="intro__list">Природных заповедников <span class="intro__list-number">105</span></li>
-                <li class="intro__list">Аэропортов 241</li>
+                <li class="intro__list">Аэропортов <span class="intro__list-number">241</span></li>
             </ul>
         </section>
         <section>
@@ -171,13 +169,13 @@
                 </div>
             </article>
         </section>
-        <div class="cover">
+        <section class="cover">
             <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__overlay">
                 <h2 class="cover__title">До Байкала «на собаках»</h2>
                 <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на
                     электричках.</p>
             </a>
-        </div>
+        </section>
     </main>
     <footer class="footer">
         <nav>

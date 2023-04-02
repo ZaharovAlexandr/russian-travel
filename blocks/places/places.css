@@ -7,13 +7,14 @@
 
 @media screen and (max-width: 768px) {
     .places {
-            row-gap: 74px;
+            row-gap: 75.5px;
+            padding-bottom: 89px;
         }
 }
 
 @media screen and (max-width: 320px) {
     .places {
-            row-gap: 90px;
+            row-gap: 53px;
             padding-bottom: 66px;
         }
 }
